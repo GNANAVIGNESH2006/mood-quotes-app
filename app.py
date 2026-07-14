@@ -68,7 +68,7 @@ def get_quote(mood):
     else:
         return random.choice(quotes["default"])
 
-st.set_page_config(page_title="AI Mood-Based Daily Quotes", page_icon="🌟", layout="centered")
+st.set_page_config(page_title="Mood-Based Daily Quotes", page_icon="🌟", layout="centered")
 
 st.title("🌟 AI Mood-Based Daily Quotes 🌟")
 st.write("Get personalized motivational quotes, calming tips, or advice based on your mood.")
